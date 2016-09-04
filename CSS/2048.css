@@ -1,0 +1,143 @@
+header {
+	display:block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+header h1{
+	font-family: Arial;
+	font-size: 40px;
+	font-weigth: bold;
+}
+
+header #newgamebutton{
+	display:block;
+	margin:20px auto;
+	
+	width: 100px;
+	padding: 10px 10px;
+	background-color: #5dd11d;
+	font-family:Arial;
+	color: white;
+	/*
+		相当于滤镜效果  
+	*/
+	border-radius:20px;
+	/* 去掉下划线 */
+	text-decoration: none;
+}
+/* 使用hover伪类实现鼠标滑过变色  */
+header #newgamebutton:hover{
+	background-color: #dd5279;
+}
+
+header p{
+	font-family: Arial;
+	font-size: 20px;
+	margin: 20px auto;
+}
+
+#grid-cintianer{
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	background-color: #c9f;
+	border-radius:20px;
+	position: relative;
+}
+
+
+
+.grid-cell {
+	width: 100px;
+	height: 100px;
+	border-radius:10px;
+	background-color: #fc9;
+	position: absolute;
+}
+
+.number-cell {
+    border-radius: 6px;
+
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    
+    /* 每行字高  使每行上下水平  且可与棋盘格同高 */
+    line-height: 100px;
+    /* 使字体居中 */
+    text-align: center;
+
+    position: absolute;
+}
+
+.gameover{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    position:absolute;
+}
+
+.success{
+	width: 500px;
+	height: 500px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    position:absolute;
+}
+
+.gameover p, .success p {
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+
+    margin-top: 150px;
+}
+
+.gameover span, .success span{
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+}
+
+#restartgamebutton {
+    display: block;
+    margin: 20px auto;
+
+    width: 180px;
+    padding: 10px 10px;
+    background-color: #8f7a66;
+
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+#page {
+	width: 500px;
+	height: 500px;
+	border-radius:20px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
